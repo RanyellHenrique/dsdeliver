@@ -1,8 +1,10 @@
 import './styles.css';
-import { ReactComponent as MainImage} from '../../core/asserts/main.svg';
+import { ReactComponent as MainImage} from '../../asserts/main.svg';
+import Footer from '../../components/Footer';
 
 const Home = () => {
     return (
+        <>
         <div className="home-container">
             <div className="home-content">
                 <div className="home-actions">
@@ -21,6 +23,8 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <Footer/>
+        </>
     );
 }
 
