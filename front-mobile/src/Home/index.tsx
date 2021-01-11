@@ -1,16 +1,21 @@
 import { Image, StyleSheet, Text, View } from "react-native"
 import React from 'react';
 import { RectButton } from "react-native-gesture-handler";
+import { useNavigation } from "@react-navigation/native";
+import Header from "../Header";
 
 const Home = () => {
 
-    const handleOnPress = () => {
+    const navigation = useNavigation();
 
+    const handleOnPress = () => {
+        navigation.navigate('Orders');
     }
 
 
     return (
         <>
+            <Header />
             <View style={styles.container}>
                 <Image source={require('../assets/deliveryman.png')} />
                 <Text style={styles.title}>Acompanhe os pedidos e {'\n'} entregue no prazo!</Text>
