@@ -11,11 +11,14 @@ DS Deliver é uma aplicação full stack web e mobile construída durante a 2ª 
 O sistema consiste em um aplicativo de registro e entrega de pedidos, com localização e mapas.
 
 ## Layout mobile
-
-## Layout web
 ![webHome](https://github.com/RanyellHenrique/assets/blob/main/Sd2/sd2.png) 
 ![webCatalog](https://github.com/RanyellHenrique/assets/blob/main/Sd2/sd22.png)
 ![webCatalog](https://github.com/RanyellHenrique/assets/blob/main/Sd2/sd23.png)
+
+## Layout web
+![mobileHome](https://github.com/RanyellHenrique/assets/blob/main/Sd2/home.jpeg) 
+![mobileOrders](https://github.com/RanyellHenrique/assets/blob/main/Sd2/orders.jpeg)
+![mobileorder](https://github.com/RanyellHenrique/assets/blob/main/Sd2/order.jpeg)
 
 ## Modelo conceitual
 ![Modelo Conceitual](https://github.com/RanyellHenrique/assets/blob/main/Sd2/modelo.png)
